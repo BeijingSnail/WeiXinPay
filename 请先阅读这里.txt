@@ -1,0 +1,4 @@
+如何运行这个demo？
+1.把包名改成你自己在微信后台填的那个（在manifest中修改）
+2.把debug.keystore拷贝下来，放到自己的秘钥中(eclipse版本在Windows--Preferences--Android--Build中有个custome  debug keystore,换成这个keystore的路径，编译运行下，用微信官方的那个软件生成这个keystore对应的sign，当然还有最重要的一步，就是在微信开放平台中填写这个sign。或者你用自己的keystore，但是生成的sign要和微信的对应。总之，包名和sign一定要和微信开放平台对应。
+3.把constants中的参数改成你自己的对应的参数。
